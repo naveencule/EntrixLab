@@ -1,0 +1,21 @@
+.city-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .city-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Round corners */
+    padding: 10px; /* Add padding */
+    margin: 5px 0; /* Add margin between items */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .dot {
+    margin-right: 8px; /* Space between dot and city name */
+    color: #000; /* Dot color */
+    font-size: 20px; /* Adjust dot size */
+  }
+  
